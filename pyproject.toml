@@ -1,0 +1,27 @@
+[project]
+name = "voiceSTS"
+version = "0.1.0"
+readme = "README.md"
+description = "A package that allows playing slay the spire with voice commands."
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["voiceagent"]
+
+[tool.black]
+verbose = true
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \__pycache__
+)/
+'''
+preview = true

@@ -1,0 +1,11 @@
+name: voiceSTS
+dependencies:
+  - python = 3.11
+  - pip>=24.0
+  - pip:
+    - numpy
+    - sounddevice
+    - 'smolagents[litellm]'
+    - scipy
+    - openai-whisper
+    
