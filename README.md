@@ -22,10 +22,17 @@ This project is still WIP.
 ### CommunicationMod
 - adapt `config.properties`:
     - path to python from the conda environment
-    - path to `main.py`
+    - path to `pipe.sh`
+    - path to `sts_input` and `sts_output`
 - add `config.properties` to the config of the CommunicationMod:
     - On Mac: `~/Library/Preferences/ModTheSpire/CommunicationMod/config.properties`
 
+## Run
+- `python main.py`
+- start Slay the Spire with the mods (debug mode recommended)
+- manually start a run and use voice commands as soon as you see the map
+### Caveats
+Sometimes the CommunicationMod fails to read the pipe. In that case let `main.py` run and manually run the CommunicationMod command again through the Mods field in the Slay the Spire main menu.
 
 ## Requirements:
 - Python 3.11
