@@ -32,7 +32,7 @@ This project is still WIP.
 - start Slay the Spire with the mods (debug mode recommended)
 - manually start a run and use voice commands as soon as you see the map
 ### Caveats
-Sometimes the CommunicationMod fails to read the pipe. In that case let `main.py` run and manually run the CommunicationMod command again through the Mods field in the Slay the Spire main menu.
+Sometimes the CommunicationMod fails to read the pipe and crashes. In that case let `main.py` run and manually run the CommunicationMod command again through the Mods field in the Slay the Spire main menu.
 
 ## Requirements:
 - Python 3.11
