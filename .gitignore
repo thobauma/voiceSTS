@@ -1,4 +1,5 @@
 __pycache__/
 .vscode
-/logs
+*.log
+log/runs/*
 *.egg-info/
